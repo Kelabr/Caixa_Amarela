@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --background-color: #2B2B2C;
+    --yellow:#FDE767;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#phaseblock{
+    max-width: 30rem;
+}
+
+#buttonBox{
+    width: 5rem;
+    height: 5rem;
+    flex-wrap: wrap;
+    background-color:var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+}
+
+
+
